@@ -1,0 +1,104 @@
+/**
+ * Container for the form
+ *
+ * @format
+ */
+
+.model-container {
+  background-color: #fafafa;
+  width: 80%;
+  margin: auto;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Title styling */
+.title {
+  font-size: 2rem;
+  color: #00796b;
+  margin-bottom: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Form layout */
+.form-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Group for label/input */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Label styling */
+.input-label {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #00796b;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+/* Input fields styling */
+.input-field {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.input-field:focus {
+  border-color: #00796b;
+  outline: none;
+}
+
+/* Button styling */
+.submit-btn {
+  grid-column: span 2;
+  background-color: #00796b;
+  color: white;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #004d40;
+}
+
+/* Prediction result styling */
+.prediction-result {
+  margin-top: 30px;
+  font-size: 1.2rem;
+  color: #00796b;
+  font-weight: bold;
+}
+
+/* Error message */
+.error-message {
+  color: red;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .form-container {
+    grid-template-columns: 1fr;
+  }
+}

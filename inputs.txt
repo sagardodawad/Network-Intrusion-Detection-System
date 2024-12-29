@@ -1,0 +1,75 @@
+{
+  "protocol_type": "tcp",
+  "service": "ftp_data",
+  "flag": "SF",
+  "src_bytes": 491,
+  "dst_bytes": 0,
+  "count": 2,
+  "srv_count": 2,
+  "serror_rate": 0.00,
+  "rerror_rate": 0.00
+}
+
+
+{
+  "protocol_type": "tcp",
+  "service": "remote_job",
+  "flag": "S0",
+  "src_bytes": 0,
+  "dst_bytes": 0,
+  "count": 270,
+  "srv_count": 23,
+  "serror_rate": 0.09,
+  "rerror_rate": 0.05
+}
+
+
+{
+  "protocol_type": "tcp",
+  "service": "private",
+  "flag": "REJ",
+  "src_bytes": 0,
+  "dst_bytes": 0,
+  "count": 2,
+  "srv_count": 1,
+  "serror_rate": 0.31,
+  "rerror_rate": 0.28
+}
+
+
+{
+  "protocol_type": "tcp",
+  "service": "ftp_data",
+  "flag": "SF",
+  "src_bytes": 334,
+  "dst_bytes": 0,
+  "count": 2,
+  "srv_count": 2,
+  "serror_rate": 0.00,
+  "rerror_rate": 0.00
+}
+
+{
+  "protocol_type": "icmp",
+  "service": "eco_i",
+  "flag": "SF",
+  "src_bytes": 8,
+  "dst_bytes": 0,
+  "count": 1,
+  "srv_count": 10,
+  "serror_rate": 0.00,
+  "rerror_rate": 0.00
+}
+
+
+{
+  "protocol_type": "tcp",
+  "service": "telnet",
+  "flag": "RSTO",
+  "src_bytes": 126,
+  "dst_bytes": 179,
+  "count": 2,
+  "srv_count": 2,
+  "serror_rate": 0.07,
+  "rerror_rate": 0.07
+}
